@@ -1,0 +1,18 @@
+{
+  "name": "cena-filosofos",
+  "version": "1.0.0",
+  "description": "Simulación del problema de la cena de los filósofos en TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "filosofos",
+    "typescript",
+    "concurrencia",
+    "semaforos"
+  ],
+  "author": "",
+  "license": "MIT"
+}
